@@ -27,5 +27,10 @@ int main()
     // arrays = Armazenam uma coleção de elementos do mesmo tipo
     int number[5] = {0, 1, 2, 3, 4};
     char word[6] = "hello";
+
+    // Strings são uma sequência de chars, são disponibilizadas por padrão 
+    std::string name = "Lui";
+    std::cout << name << "\n";
+
     return 0;
 }
